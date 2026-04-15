@@ -15,6 +15,17 @@ class Logux < Formula
     end
   end
 
+  on_linux do
+    on_arm do
+      url "https://github.com/thothlab/logux/releases/download/v2.1.0/logux-linux-arm64.tar.gz"
+      sha256 "2d3e2620d9b42556f0c959c488f0b191a57e10882930b215bea2c307fbc4c6e6"
+    end
+    on_intel do
+      url "https://github.com/thothlab/logux/releases/download/v2.1.0/logux-linux-x86_64.tar.gz"
+      sha256 "8c9349e6b7a8d7c2e41d46fd4b97058814152f1f21e713560ed41a2fefcf4903"
+    end
+  end
+
   def install
     bin.install "logux"
   end
