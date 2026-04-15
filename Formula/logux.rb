@@ -1,5 +1,5 @@
 class Logux < Formula
-  desc "Android Logs & Traffic CLI — real-time logcat viewer with filtering, presets, traffic inspection, mock rules"
+  desc "Android logcat viewer with filtering, traffic inspection, and mock rules"
   homepage "https://github.com/thothlab/logux"
   version "2.1.0"
   license "MIT"
