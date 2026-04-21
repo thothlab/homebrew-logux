@@ -1,28 +1,28 @@
 class Logux < Formula
   desc "Android logcat viewer with filtering, traffic inspection, and mock rules"
   homepage "https://github.com/thothlab/logux"
-  version "2.1.0"
+  version "2.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/thothlab/logux/releases/download/v2.1.0/logux-macos-arm64.tar.gz"
-      sha256 "067aeeb57a5f462cf38e64db0315acbb72c74855c2e0e320307b161c0c9b82e2"
+      url "https://github.com/thothlab/logux/releases/download/v2.2.0/logux-macos-arm64.tar.gz"
+      sha256 "b9d39b6e655128caf4122b330a74410e7149f91d9e7061c05523140c221dc868"
     end
     on_intel do
-      url "https://github.com/thothlab/logux/releases/download/v2.1.0/logux-macos-x86_64.tar.gz"
-      sha256 "2b88837d10dbde1f9907c028b3179e8873a52027a729ec76f4f9c96121dab4d4"
+      url "https://github.com/thothlab/logux/releases/download/v2.2.0/logux-macos-x86_64.tar.gz"
+      sha256 "9306f836578fc26fae5284ebad78a245711e2086ff2dde9605e1cfb772ffee80"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thothlab/logux/releases/download/v2.1.0/logux-linux-arm64.tar.gz"
-      sha256 "2d3e2620d9b42556f0c959c488f0b191a57e10882930b215bea2c307fbc4c6e6"
+      url "https://github.com/thothlab/logux/releases/download/v2.2.0/logux-linux-arm64.tar.gz"
+      sha256 "6c5b041047f9ef59293d169fe4f3f95360aa43d7517bb20df9e8333f040aa9c2"
     end
     on_intel do
-      url "https://github.com/thothlab/logux/releases/download/v2.1.0/logux-linux-x86_64.tar.gz"
-      sha256 "8c9349e6b7a8d7c2e41d46fd4b97058814152f1f21e713560ed41a2fefcf4903"
+      url "https://github.com/thothlab/logux/releases/download/v2.2.0/logux-linux-x86_64.tar.gz"
+      sha256 "c6157e1933500d7dd93bbf7bef474d528cabc10eae5c6e91ed5a960fa4b277ee"
     end
   end
 
